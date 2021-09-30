@@ -5,7 +5,7 @@ from pydub import AudioSegment
 import paralleldots
 import json
 import os
-paralleldots.set_api_key("4hIabinTFcXDOCwsykbDyxiQRfoVNdM8r4RGGK1EXVc")
+paralleldots.set_api_key("XXXXXXXX")
 app = Flask(__name__)
 
 @app.route('/')
