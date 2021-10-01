@@ -22,7 +22,7 @@ def my_form_post():
         #name = item.split('.')
         ##print(name[0])
         #fh = open("recognized.txt", "w+") 
-        #AUDIO_FILE = "/home/samroadie/Desktop/codebreak/audios/data/preamble1.wav"
+        #AUDIO_FILE = "path to audio file"
         r = sr.Recognizer()
         with sr.AudioFile(AUDIO_FILE) as source:
             audio = r.record(source)  # read the entire audio file
